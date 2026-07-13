@@ -16,7 +16,7 @@ const urlSchema = new mongoose.Schema({
   },
   alias: {
     type: String,
-    required: true,
+    
   },
 });
 const Url = mongoose.model('Url' , urlSchema );
